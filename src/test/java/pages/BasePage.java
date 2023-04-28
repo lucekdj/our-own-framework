@@ -17,5 +17,6 @@ public class BasePage {
         PageFactory.initElements(driver, this);              // class help creating object model  this: passing page
 
         //System.out.println("julius new-branch1");
+        //sout
     }
 }
