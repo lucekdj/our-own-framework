@@ -1,4 +1,4 @@
-package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import utilities.DriverUtils;
@@ -14,5 +14,6 @@ public class BasePage {
         //    //page that we want to initialize the elements on
 
         PageFactory.initElements(driver, this);              // class help creating object model  this: passing page
+
     }
 }
