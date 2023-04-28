@@ -1,35 +1,30 @@
 package pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import pages.BasePage;
 
-public class LoginPage extends BasePage{
-      @FindBy (css="#username")
-      WebElement username;
+public class LoginPage extends BasePage {
 
-      @FindBy (xpath = "//input[@type='password']")
-      WebElement password;
+    //@FindBy() annotation takes in a type of locator and the actual locator String itself in order to find and initialize that element to the WebElement variable created below it
+    @FindBy(id = "username")
+    WebElement usernameInput;
 
-      @FindBy(xpath = "//div[@class='checkbox']")
-      WebElement rememberMeCheckbox;
+    @FindBy(id = "password")
+    WebElement passwordInput;
 
-      @FindBy (xpath = "//button[contains(text(),'Sign in')]")
-      WebElement signInBtn;
-
-
-      public void enterValidLoginInfo(){
-            username.sendKeys("paulinagigi@gmail.com");
-            password.sendKeys("Gigigigi1234");
-
-      }
-
-      public void clickOnSignIn(){
-            signInBtn.click();
-
-      }
+    @FindBy(id = "submit")
+    WebElement submitBtn;
 
 
+    public void enterValidLoginInfo() {
+        usernameInput.sendKeys("kotapka21@yahoo.com");
+        passwordInput.sendKeys("1234567Test");
+    }
+
+    public void clickSignInBtn(){
+        submitBtn.click();
+    }
 
 
 }

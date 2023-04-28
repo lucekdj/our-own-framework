@@ -4,12 +4,14 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage {
 
-    @FindBy (css= ".active")
-    WebElement welcomeMessage;
+public class HomePage extends BasePage{
+    @FindBy(xpath="//li[@class='active']")
+    WebElement welcomeTestMessage;
 
-    public void verifyUserOnHomePage(){
-        Assert.assertTrue("User is not on the homePage",welcomeMessage.isDisplayed());
+    public void verifyPage(){
+        Assert.assertTrue("Welcome test not displayed", welcomeTestMessage.isDisplayed());
     }
+
 }
+
