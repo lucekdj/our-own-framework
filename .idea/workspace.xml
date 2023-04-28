@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="" />
+=======
+    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    </list>
+>>>>>>> 022b87b42fb9cff47f615a9c3ee1701e5fb0dcc4
+>>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -45,6 +66,32 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Scenario: Verify user is able to log in with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="our-own-framework" />
+      <option name="NAME_FILTER" value="^Verify user is able to log in with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to log in with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to log in with valid credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +108,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="paulinasDriverBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
