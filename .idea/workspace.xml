@@ -7,6 +7,9 @@
 <<<<<<< HEAD
     <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="" />
 =======
+<<<<<<< HEAD
+    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="" />
+=======
     <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" afterDir="false" />
@@ -15,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
 >>>>>>> 022b87b42fb9cff47f615a9c3ee1701e5fb0dcc4
+>>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
