@@ -19,6 +19,8 @@ public class DriverUtils {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("http://18.118.14.155:8080/bank/login");
+
+        //sos
     }
    
 
