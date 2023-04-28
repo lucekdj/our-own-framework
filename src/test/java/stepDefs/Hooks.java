@@ -1,7 +1,7 @@
 package stepDefs;
 
-import org.junit.After;
-import org.junit.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import utilities.DriverUtils;
 
 public class Hooks {

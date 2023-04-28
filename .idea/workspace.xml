@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="paulinasDriverBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +100,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="paulinasDriverBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
