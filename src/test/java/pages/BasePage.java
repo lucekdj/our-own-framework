@@ -1,5 +1,6 @@
 package pages;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import utilities.ConfigReader;
@@ -7,6 +8,8 @@ import utilities.DriverUtils;
 
 public class BasePage {
     WebDriver driver = DriverUtils.getDriver();  // other classes will inherit this driver
+
+    Faker faker= new Faker();
 
     public BasePage(){                            // creating constructor
 
@@ -16,7 +19,5 @@ public class BasePage {
         //    //page that we want to initialize the elements on
 
         PageFactory.initElements(driver, this);              // class help creating object model  this: passing page
-
-
     }
 }
