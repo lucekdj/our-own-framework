@@ -18,7 +18,7 @@ public class RegistrationFirstPage extends BasePage {
     @FindBy(xpath = "//label[@for='male']")
     WebElement gender;
 
-    @FindBy(xpath = "//strong[contains(text(),'Date of Birth')]")
+    @FindBy(xpath = "//input[@name='dob']")
     WebElement DOB;
 
     @FindBy(xpath = "//input[@id='ssn']")
@@ -30,7 +30,7 @@ public class RegistrationFirstPage extends BasePage {
     @FindBy(css = "#password")
     WebElement password;
 
-    @FindBy(css = "confirmPassword")
+    @FindBy(css = "#confirmPassword")
     WebElement confirmPassword;
 
     @FindBy(xpath = "//button[contains(text(),'Next')]")
