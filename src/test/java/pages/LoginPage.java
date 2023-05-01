@@ -1,8 +1,10 @@
 package pages;
 
+import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
+import utilities.ConfigReader;
 
 public class LoginPage extends BasePage {
 
@@ -22,10 +24,14 @@ public class LoginPage extends BasePage {
         passwordInput.sendKeys("1234567Test");
     }
 
-    public void clickSignInBtn(){
-        submitBtn.click();
+    public void enterValidLoginInfo(String username, String password) {
+        usernameInput.sendKeys(ConfigReader.getConfigProperty(username));
+        passwordInput.sendKeys(ConfigReader.getConfigProperty(password));
     }
 
+        public void clickSignInBtn () {
+            submitBtn.click();
 
+    }
 }
 
