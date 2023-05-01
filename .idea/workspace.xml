@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="first sos" />
+    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
