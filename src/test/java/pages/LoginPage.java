@@ -17,6 +17,9 @@ public class LoginPage extends BasePage {
 
     @FindBy(id = "submit")
     WebElement submitBtn;
+    @FindBy(xpath = "//a[contains(text(),'Sign Up Here')]")
+    WebElement signUpHere;
+
 
 
     public void enterValidLoginInfo() {
@@ -29,9 +32,12 @@ public class LoginPage extends BasePage {
         passwordInput.sendKeys(ConfigReader.getConfigProperty(password));
     }
 
-        public void clickSignInBtn () {
-            submitBtn.click();
-
+    public void clickSignInBtn() {
+        submitBtn.click();
+    }
+    public void clickSignUpHere() {
+        signUpHere.click();
     }
 }
+
 
