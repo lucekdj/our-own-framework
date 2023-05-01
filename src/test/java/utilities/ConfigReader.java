@@ -7,7 +7,7 @@ public class ConfigReader {
 
     public static Properties properties;
 
-    public void initializeProperties() {
+    public static void initializeProperties() {
         try {
             FileReader fileReader = new FileReader("src/test/resources/config.properties");
             properties = new Properties();
