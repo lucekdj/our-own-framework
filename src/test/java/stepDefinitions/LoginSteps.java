@@ -13,12 +13,15 @@ public class LoginSteps {
     public void user_enters_valid_username_and_password(String username, String password ) {
         loginPage.enterValidLoginInfo(username, password );
     }
-    @When("user clicks on Sign In button")
-    public void user_clicks_on_sign_in_button() {
-        loginPage.clickSignInBtn();
+
+        @When("user clicks on sign in button")
+        public void userClicksOnSignInButton() {
+            loginPage.clickSignInBtn();
+
     }
-    @Then("verify user is successfully logged in to the account")
-    public void verify_user_is_successfully_logged_in_to_the_account() {
+
+    @Then("verify user is successfully logged into the account")
+    public void verifyUserIsSuccessfullyLoggedIntoTheAccount() {
         homePage.verifyPage();
 
     }
