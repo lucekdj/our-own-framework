@@ -12,49 +12,56 @@ public class NewCheckingSteps {
 HomePage homePage= new HomePage();
 NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
 
-    @Given("user clicks on  {string} dropdown")
-    public void user_clicks_on_dropdown(String checkingBtn) {
-        homePage.clickOnMenuItem(checkingBtn);
-        
+    @Given("user clicks on Checking dropdown")
+    public void user_clicks_on_dropdown() throws InterruptedException {
+        homePage.clickOnCheckingDropdown();
+
     }
 
-    @Then("user clicks on {string}")
+
+
+
+    @Then("user clicks on New Checking")
     public void user_clicks_on(String newCheckingBtn) {
-        homePage.clickOnSubMenuItemOfBankingAccounts(newCheckingBtn);
+        homePage.clickOnSubmenu(newCheckingBtn);
         
     }
 
     @Then("verify user is on New Checking page")
     public void verify_user_is_on_new_checking_page() {
-        Assert.assertTrue("New Checking Account Page not displayed",);
+        newCheckingPage.verifyNewCheckingAcctPage();
         
     }
-
-    @Then("user selects {string}")
-    public void user_selects(String string) {
-
+    @And("user selects {string} on the Checking Account Type menu")
+    public void userSelectsOnTheCheckingAccountTypeMenu(String accountType) {
+        newCheckingPage.selectAccountType(accountType);
     }
+    @And("user selects {string} on the Select Account Ownership")
+    public void userSelectsOnTheSelectAccountOwnership(String acctOwnership) {
+        newCheckingPage.selectAcctOwnership(acctOwnership);
+    }
+    @Then("user enters Account Name")
+    public void user_enters() {
+        newCheckingPage.userEntersAcctName();
 
 
-    @Then("user enters {string}")
-    public void user_enters(String string) {
-        
     }
 
     @Then("user clicks on submit button on checking page")
     public void user_clicks_on_submit_button_on_checking_page() {
+        newCheckingPage.userClicksOnSubmitBtn();
         
     }
 
-    @Then("verify user is on Checking View Page")
-    public void verify_user_is_on_checking_view_page() {
-        
-    }
-    @And("user selects {string} on the Checking Account Type menu")
-    public void userSelectsOnTheCheckingAccountTypeMenu(String arg0) {
+    @And("user enters Initial Deposit Amount")
+    public void userEntersInitialDepositAmount() {
+        newCheckingPage.userEntersDepositAmount();
     }
 
-    @And("user selects {string} on the Select Account Ownership")
-    public void userSelectsOnTheSelectAccountOwnership(String arg0) {
+    @Then("verify user successfully created a checking account")
+    public void verifyUserSuccessfullyCreatedACheckingAccount() {
+        newCheckingPage.verifySuccessfulCheckingAccountOpened();
     }
 }
+
+
