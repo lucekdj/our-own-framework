@@ -20,4 +20,4 @@ Feature: Savings feature
     Examples:
       | Savings Account Type | Account Ownership | Account Name  | Initial Deposit |
       | Savings              | Individual        | House Savings | 25              |
-      | Money Market         | Joint             | House         | 25000           |
+      | Money Market         | Joint             | House         | 250             |
