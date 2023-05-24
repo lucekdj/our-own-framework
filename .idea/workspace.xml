@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="first sos">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationSecondPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_23,_8_25_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_23__8_25_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverUtils.java" afterDir="false" />
-=======
     <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewSavingsAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewSavingsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Savings.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" afterDir="false" />
->>>>>>> c57fa47a773c601eefcfb4db5241aaac7b5b0aa0
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,26 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to register for account">
+  <component name="RunManager" selected="Cucumber Java.Feature: Savings">
+    <configuration name="Feature: Savings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Savings.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="our-own-framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Savings" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Verify user is able to log in with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -126,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Savings" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
-        <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
       </list>
     </recent_temporary>
   </component>
