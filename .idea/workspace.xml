@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" afterDir="false" />
+=======
+=======
+>>>>>>> da672b4a6bc291b89d48d8faeeef685eedd241c3
 
 
 
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 
+<<<<<<< HEAD
+>>>>>>> afbd065c05d5d6f846ffef521d8ca5d8bfa129bd
+=======
 
+>>>>>>> da672b4a6bc291b89d48d8faeeef685eedd241c3
     </list>
 
     <option name="SHOW_DIALOG" value="false" />
