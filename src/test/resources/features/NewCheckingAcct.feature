@@ -19,7 +19,7 @@ Feature: New checking account
     Examples:
       | Checking Account Type | Account Ownership | Account Name | Initial Deposit |
       | Standard Checking     | Individual        | Paula's Acct | 500             |
-      | Interest Checking     | Joint             | Gosia's Acct | 400             |
+      | Interest Checking     | Joint             | Gosia's Acct | 4000            |
 
 
 
