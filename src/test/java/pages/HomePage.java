@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends BasePage {
     @FindBy(xpath = "//li[@class='active']")
     WebElement welcomeTestMessage;
-    @FindBy(css = "//a[@id='checking-menu']")
+    @FindBy(xpath= "//a[@id='checking-menu']")
     WebElement checkingDropdown;
     @FindBy(css = "#savings-menu")
     WebElement savingsBtn;
@@ -105,8 +105,6 @@ public class HomePage extends BasePage {
 
         }
     }
-
-
 
 
 }

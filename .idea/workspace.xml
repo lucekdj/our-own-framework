@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCheckingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCheckingSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RegistrationSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" afterDir="false" />
     </list>
@@ -162,8 +161,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
-        <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
+        <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
       </list>
