@@ -7,7 +7,7 @@ import utilities.ConfigReader;
 
 public class NewCheckingAccountPage extends BasePage{
 
-    @FindBy(css = "//h1[@id='page-title']")
+    @FindBy(xpath = "//h1[@id='page-title']")
     WebElement NewCheckingAcctPage;
 
     @FindBy(xpath = "//input[@id='Standard Checking']")
