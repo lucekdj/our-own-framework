@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+
+
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NewCheckingAccountPage.java" afterDir="false" />
+
+
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="RegistrationFirstPage" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,15 +60,19 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
+
   <component name="RunManager" selected="Cucumber Java.Scenario: user opens new checking account">
     <configuration name="Feature: NewCheckingAcct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" />
+
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="our-own-framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+
       <option name="SUGGESTED_NAME" value="Feature: NewCheckingAcct" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +165,13 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
         <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to login with valid credentials" />
+
       </list>
     </recent_temporary>
   </component>
