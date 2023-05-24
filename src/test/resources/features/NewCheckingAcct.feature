@@ -11,15 +11,15 @@ Feature: New checking account
     Then verify user is on New Checking page
     And user selects "<Checking Account Type>" on the Checking Account Type menu
     And user selects "<Account Ownership>" on the Select Account Ownership
-    And user enters Account Name
-    And user enters Initial Deposit Amount
+    And user enters "<Account Name>"
+    And user enters "<Initial Deposit>" Amount
     Then user clicks on submit button on checking page
     Then verify user successfully created a checking account
 
     Examples:
-      | Checking Account Type | Account Ownership |
-      | Standard Checking     | Individual        |
-      | Interest Checking     | Joint             |
+      | Checking Account Type | Account Ownership | Account Name | Initial Deposit |
+      | Standard Checking     | Individual        | Paula's Acct | 500             |
+      | Interest Checking     | Joint             | Gosia's Acct | 400             |
 
 
 

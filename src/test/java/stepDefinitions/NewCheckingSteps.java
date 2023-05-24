@@ -34,15 +34,15 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
     }
     @And("user selects {string} on the Checking Account Type menu")
     public void userSelectsOnTheCheckingAccountTypeMenu(String accountType) {
-        newCheckingPage.selectAccountType(accountType);
+        newCheckingPage.selectAccountType();
     }
     @And("user selects {string} on the Select Account Ownership")
     public void userSelectsOnTheSelectAccountOwnership(String acctOwnership) {
         newCheckingPage.selectAcctOwnership(acctOwnership);
     }
-    @Then("user enters Account Name")
-    public void user_enters() {
-        newCheckingPage.userEntersAcctName();
+    @Then("user enters {string}")
+    public void user_enters(String accountName) {
+        newCheckingPage.userEntersAcctName(accountName);
 
 
     }
@@ -53,9 +53,9 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
         
     }
 
-    @And("user enters Initial Deposit Amount")
-    public void userEntersInitialDepositAmount() {
-        newCheckingPage.userEntersDepositAmount();
+    @And("user enters {string} Amount")
+    public void userEntersInitialDepositAmount(String initialDeposit) {
+        newCheckingPage.userEntersDepositAmount(initialDeposit);
     }
 
     @Then("verify user successfully created a checking account")
