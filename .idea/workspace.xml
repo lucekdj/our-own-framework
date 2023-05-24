@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
 
+    <list default="true" id="d8eff314-0571-46e6-8e90-f8661369b50c" name="Changes" comment="" />
+=======
+
 
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 
     </list>
+>>>>>>> 71aba1f197ad668fc08312e7a194f70c91a91c76
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
