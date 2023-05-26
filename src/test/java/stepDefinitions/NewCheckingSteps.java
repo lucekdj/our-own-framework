@@ -7,7 +7,7 @@ import org.junit.Assert;
 import pages.HomePage;
 import pages.NewCheckingAccountPage;
 
-public class NewCheckingSteps {
+public class  NewCheckingSteps {
 
 HomePage homePage= new HomePage();
 NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
@@ -22,9 +22,10 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
 
 
     @Then("user clicks on New Checking")
+
     public void user_clicks_on() {
         homePage.clickOnNewCheckingBtn();
-        
+
     }
 
     @Then("verify user is on New Checking page")
