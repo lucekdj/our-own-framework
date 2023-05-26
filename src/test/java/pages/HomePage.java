@@ -42,74 +42,18 @@ public class HomePage extends BasePage {
         Assert.assertTrue("Welcome test not displayed", welcomeTestMessage.isDisplayed());
     }
 
-
-//    public void clickOnMenuItem(String menuItem) {
-//        switch (menuItem) {
-//            case "checking":
-//                checkingBtn.click();
-//                break;
-//            case "savings":
-//                savingsBtn.click();
-//                break;
-//            case "external":
-//                externalBtn.click();
-//                break;
-//            case "deposit":
-//                depositBtn.click();
-//                break;
-//            case "withdraw":
-//                withdrawBtn.click();
-//                break;
-//            case "transferBtnAccounts":
-//                transferBtnAccountsBtn.click();
-//                break;
-//            case "visaDirectTransfer":
-//                visaDirectTransferBtn.click();
-//                break;
-
-    //
-//    public void clickOnSubMenuItemOfBankingAccounts(String subMenuItem) {
-//        switch (subMenuItem) {
-//            case "view checking":
-//                viewCheckingBtn.click();
-//                break;
-//            case "new checking":
-//                newCheckingBtn.click();
-//                break;
-//            case "viewSavings":
-//                viewSavingsBtn.click();
-//                break;
-//            case "new Savings":
-//                newSavingsBtn.click();
-//                break;
-//            case "link external account":
-//                linkExternalAccountBtn.click();
-//                break;
-//            case "view external account":
-//                viewExternalAccountBtn.click();
-//                break;
-//
-//        }
     public void clickOnCheckingDropdown() throws InterruptedException {
         checkingDropdown.click();
         Thread.sleep(3000);
     }
 
+    public void clickOnSavingsDropdown(){
+        savingsBtn.click();
+    }
+ 
     public void clickOnNewCheckingBtn(){
         newCheckingBtn.click();
     }
-    public void clickOnSubmenu(String subMenu){
-        switch (subMenu){
-            case "view checking":
-                viewCheckingBtn.click();
-                break;
-            case "new checking":
-                newCheckingBtn.click();
-                break;
-
-        }
-    }
-
 
 }
 
