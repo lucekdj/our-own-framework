@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
     @FindBy(css = "#view-checking-menu-item")
     WebElement viewCheckingBtn;
 
-    @FindBy(css = "#new-checking-menu-item")
+    @FindBy(xpath = "//a[@id='new-checking-menu-item']")
     WebElement newCheckingBtn;
     @FindBy(css = "#view-savings-menu-item")
     WebElement viewSavingsBtn;
@@ -93,6 +93,10 @@ public class HomePage extends BasePage {
     public void clickOnCheckingDropdown() throws InterruptedException {
         checkingDropdown.click();
         Thread.sleep(3000);
+    }
+
+    public void clickOnNewCheckingBtn(){
+        newCheckingBtn.click();
     }
     public void clickOnSubmenu(String subMenu){
         switch (subMenu){
