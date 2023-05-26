@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
     @FindBy(css = "#view-checking-menu-item")
     WebElement viewCheckingBtn;
 
-    @FindBy(css = "#new-checking-menu-item")
+    @FindBy(xpath = "//a[@id='new-checking-menu-item']")
     WebElement newCheckingBtn;
     @FindBy(css = "#view-savings-menu-item")
     WebElement viewSavingsBtn;
@@ -50,30 +50,10 @@ public class HomePage extends BasePage {
     public void clickOnSavingsDropdown(){
         savingsBtn.click();
     }
-    public void clickOnSubmenuChecking(String subMenu){
-        switch (subMenu){
-            case "view checking":
-                viewCheckingBtn.click();
-                break;
-            case "new checking":
-                newCheckingBtn.click();
-                break;
-
-        }
+ 
+    public void clickOnNewCheckingBtn(){
+        newCheckingBtn.click();
     }
-
-    public void clickOnSubmenuSaving(String subMenu){
-        switch (subMenu){
-            case "view savings":
-                viewSavingsBtn.click();
-                break;
-            case "new savings":
-                newSavingsBtn.click();
-                break;
-
-        }
-    }
-
 }
 
 

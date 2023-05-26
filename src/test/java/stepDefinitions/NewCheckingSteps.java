@@ -22,9 +22,10 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
 
 
     @Then("user clicks on New Checking")
-    public void user_clicks_on(String newCheckingBtn) {
-        homePage.clickOnSubmenuChecking(newCheckingBtn);
-        
+
+    public void user_clicks_on() {
+        homePage.clickOnNewCheckingBtn();
+
     }
 
     @Then("verify user is on New Checking page")
@@ -33,12 +34,12 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
         
     }
     @And("user selects {string} on the Checking Account Type menu")
-    public void userSelectsOnTheCheckingAccountTypeMenu(String accountType) {
+    public void userSelectsOnTheCheckingAccountTypeMenu(String standard) {
         newCheckingPage.selectAccountType();
     }
     @And("user selects {string} on the Select Account Ownership")
-    public void userSelectsOnTheSelectAccountOwnership(String acctOwnership) {
-        newCheckingPage.selectAcctOwnership(acctOwnership);
+    public void userSelectsOnTheSelectAccountOwnership() {
+        newCheckingPage.selectAcctOwnership();
     }
     @Then("user enters {string}")
     public void user_enters(String accountName) {

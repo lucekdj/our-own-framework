@@ -12,6 +12,7 @@ NewSavingsAccountPage newSavingsPage = new NewSavingsAccountPage();
     @Given("user clicks on {string} menu")
     public void user_clicks_on_menu(String savingsBtn) {
         homePage.clickOnSavingsDropdown();
+
     }
 
     @Given("user selects {string} subItem")

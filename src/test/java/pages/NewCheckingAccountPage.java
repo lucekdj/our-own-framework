@@ -46,19 +46,12 @@ public class NewCheckingAccountPage extends BasePage{
 
         }
 
-
-        public void selectAcctOwnership(String acctOwnership) {
-            switch (acctOwnership) {
-                case "Individual":
-                    individualAccountIcon.click();
-                    break;
-                case "Joint":
-                    jointAccountIcon.click();
-                    break;
+        public void selectAcctOwnership(){
+        individualAccountIcon.click();
 
 
             }
-        }
+
 
     public void userClicksOnSubmitBtn() {
         submitBtn.click();
@@ -76,6 +69,7 @@ public class NewCheckingAccountPage extends BasePage{
         successfulCheckingAccount.isDisplayed();
 
     }
+
 
 
 
