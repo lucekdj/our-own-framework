@@ -11,15 +11,18 @@ HomePage homePage = new HomePage();
 NewSavingsAccountPage newSavingsPage = new NewSavingsAccountPage();
     @Given("user clicks on {string} menu")
     public void user_clicks_on_menu(String savingsBtn) {
-        homePage.clickOnMenuItem(savingsBtn);
+        homePage.clickOnSavingsDropdown();
     }
 
     @Given("user selects {string} subItem")
-    public void user_selects_sub_item(String string) {
+    public void user_selects_sub_item(String newCheckingBtn) {
+        homePage.clickOnSubmenuSaving(newCheckingBtn);
         
     }
     @Then("verify user is on new savings page")
     public void verifyUserIsOnNewSavingsPage() {
+        newSavingsPage.verifyNewSavingsAcctPage();
+
     }
     @When("user selects {string} on the Savings Account Type")
     public void user_selects_on_the_savings_account_type(String string) {
