@@ -54,6 +54,7 @@ public class HomePage extends BasePage {
     public void clickOnNewCheckingBtn(){
         newCheckingBtn.click();
     }
+<<<<<<< HEAD
 
     public void clickOnSubmenu(String subMenu){
         switch (subMenu){
@@ -69,6 +70,9 @@ public class HomePage extends BasePage {
 
 
 
+=======
+
+>>>>>>> 0b47d9957c1fc21e8d4ab9ab5c63c4001f470588
 }
 
 
