@@ -54,6 +54,7 @@ public class HomePage extends BasePage {
     public void clickOnNewCheckingBtn(){
         newCheckingBtn.click();
     }
+
 }
 
 
