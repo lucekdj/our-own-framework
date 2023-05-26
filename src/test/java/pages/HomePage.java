@@ -100,7 +100,7 @@ public class HomePage extends BasePage {
     }
     public void clickOnSubmenu(String subMenu){
         switch (subMenu){
-            case"view checking":
+            case "view checking":
                 viewCheckingBtn.click();
                 break;
             case "new checking":
