@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 public class NewCheckingAccountPage extends BasePage{
 
     @FindBy(xpath = "//h1[@id='page-title']")
-    WebElement NewCheckingAcctPage;
+    WebElement newCheckingAcctPage;
 
     @FindBy(xpath = "//input[@id='Standard Checking']")
     WebElement standardCheckingIcon;
@@ -36,7 +36,7 @@ public class NewCheckingAccountPage extends BasePage{
 
 
     public void verifyNewCheckingAcctPage() {
-        Assert.assertTrue("New Checking account page is not displayed", NewCheckingAcctPage.isDisplayed());
+        Assert.assertTrue("New Checking account page is not displayed", newCheckingAcctPage.isDisplayed());
     }
 
     public void selectAccountType() {
@@ -58,7 +58,7 @@ public class NewCheckingAccountPage extends BasePage{
     }
 
     public void userEntersAcctName(String acctName){
-        accountName.sendKeys(acctName);
+        accountName.sendKe;
 
     }
     public void userEntersDepositAmount(String initDeposit){
