@@ -6,8 +6,8 @@ Feature: Savings feature
     Then verify user is successfully logged into the account
 
   Scenario Outline: Verify user is able to create New Savings Account
-    Given user clicks on "savings" menu
-    And user selects "new savings" subItem
+    Given user clicks on Savings menu
+    And user selects New Savings subItem
     Then verify user is on new savings page
     When user selects "<Savings Account Type>" on the Savings Account Type
     And user selects "<Account Ownership>" on the Savings Account Ownership

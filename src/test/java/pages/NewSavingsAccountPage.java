@@ -19,19 +19,13 @@ public class NewSavingsAccountPage extends BasePage {
 
     @FindBy (css = "#Joint")
     WebElement joint;
-:
+
 
 
     public void verifyNewSavingsAcctPage() {
         Assert.assertTrue("New Savings account page is not displayed", newSavingsAcctPage.isDisplayed());
     }
 
-
-
-
-
-
 }
 
 
-}

@@ -39,18 +39,20 @@ public class NewCheckingAccountPage extends BasePage{
         Assert.assertTrue("New Checking account page is not displayed", newCheckingAcctPage.isDisplayed());
     }
 
-    public void selectAccountType() {
-        standardCheckingIcon.click();
-
-
-
+    public void selectAccountType(String accountType ) {
+        if(accountType.contains("Standard")){
+            standardCheckingIcon.click();
+        }else{
+            interestCheckingIcon.click();
         }
-
-        public void selectAcctOwnership(){
-        individualAccountIcon.click();
-
-
-            }
+    }
+    public void selectAcctOwnership(String ownershipType){
+        if(ownershipType.contains("Individual")){
+            individualAccountIcon.click();
+        }else{
+            jointAccountIcon.click();
+        }
+    }
 
 
     public void userClicksOnSubmitBtn() {
@@ -58,7 +60,7 @@ public class NewCheckingAccountPage extends BasePage{
     }
 
     public void userEntersAcctName(String acctName){
-        accountName.sendKe;
+        accountName.sendKeys(acctName);
 
     }
     public void userEntersDepositAmount(String initDeposit){
