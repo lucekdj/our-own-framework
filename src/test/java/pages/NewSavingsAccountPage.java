@@ -19,7 +19,7 @@ public class NewSavingsAccountPage extends BasePage {
 
     @FindBy (css = "#Joint")
     WebElement joint;
-:
+
 
 
     public void verifyNewSavingsAcctPage() {
@@ -34,4 +34,4 @@ public class NewSavingsAccountPage extends BasePage {
 }
 
 
-}
+

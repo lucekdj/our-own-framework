@@ -58,7 +58,7 @@ public class NewCheckingAccountPage extends BasePage{
     }
 
     public void userEntersAcctName(String acctName){
-        accountName.sendKe;
+        //accountName.sendKey;
 
     }
     public void userEntersDepositAmount(String initDeposit){

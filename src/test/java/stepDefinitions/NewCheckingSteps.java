@@ -38,7 +38,7 @@ NewCheckingAccountPage newCheckingPage= new NewCheckingAccountPage();
         newCheckingPage.selectAccountType();
     }
     @And("user selects {string} on the Select Account Ownership")
-    public void userSelectsOnTheSelectAccountOwnership() {
+    public void userSelectsOnTheSelectAccountOwnership(String ) {
         newCheckingPage.selectAcctOwnership();
     }
     @Then("user enters {string}")
