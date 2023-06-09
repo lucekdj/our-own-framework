@@ -60,37 +60,36 @@
     <dependency>
         <groupId>net.masterthought</groupId>
         <artifactId>cucumber-reporting</artifactId>
-        <version>3.4.0</version>
+        <version>5.7.5</version>
     </dependency>
 
 
 </dependencies>
     <build>
         <plugins>
-            <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.4.0</version>
 
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>Our-own-framework-report</projectName>
-                            <outputDirectory>Report/</outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+        <plugin>
+            <groupId>net.masterthought</groupId>
+            <artifactId>maven-cucumber-reporting</artifactId>
+            <version>3.4.0</version>
+
+            <executions>
+                <execution>
+                    <id>execution</id>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                    <configuration>
+                        <projectName>Project Name</projectName>
+                        <outputDirectory>Report/</outputDirectory>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
         </plugins>
     </build>
 
 
-
-
-
 </project>
+
