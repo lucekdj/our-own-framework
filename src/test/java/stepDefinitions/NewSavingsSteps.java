@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,17 +10,7 @@ import pages.NewSavingsAccountPage;
 public class NewSavingsSteps {
 HomePage homePage = new HomePage();
 NewSavingsAccountPage newSavingsPage = new NewSavingsAccountPage();
-    @Given("user clicks on {string} menu")
-    public void user_clicks_on_menu(String savingsBtn) {
-        homePage.clickOnSavingsDropdown();
 
-    }
-
-    @Given("user selects {string} subItem")
-    public void user_selects_sub_item(String newCheckingBtn) {
-        homePage.clickOnSubmenuSaving(newCheckingBtn);
-        
-    }
     @Then("verify user is on new savings page")
     public void verifyUserIsOnNewSavingsPage() {
         newSavingsPage.verifyNewSavingsAcctPage();
@@ -56,5 +47,15 @@ NewSavingsAccountPage newSavingsPage = new NewSavingsAccountPage();
     @Then("verify new savings account was created")
     public void verify_new_savings_account_was_created() {
         
+    }
+
+    @Given("user clicks on Savings menu")
+    public void userClicksOnSavingsMenu() {
+        homePage.clickOnSavingsDropdown();
+    }
+
+    @And("user selects New Savings subItem")
+    public void userSelectsNewSavingsSubItem() {
+        homePage.clickOnNewSavingsBtn();
     }
 }

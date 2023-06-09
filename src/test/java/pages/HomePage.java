@@ -46,32 +46,24 @@ public class HomePage extends BasePage {
         checkingDropdown.click();
         Thread.sleep(3000);
     }
+    public void clickOnNewCheckingBtn(){
+        newCheckingBtn.click();
+    }
 
     public void clickOnSavingsDropdown(){
         savingsBtn.click();
     }
  
-    public void clickOnNewCheckingBtn(){
-        newCheckingBtn.click();
-    }
+
+    public void clickOnNewSavingsBtn(){
+        newSavingsBtn.click();
 
 
-    public void clickOnSubmenu(String subMenu){
-        switch (subMenu){
-            case "view checking":
-                viewCheckingBtn.click();
-                break;
-            case "new checking":
-                newCheckingBtn.click();
-                break;
+
 
         }
     }
 
-
-
-
-}
 
 
 
