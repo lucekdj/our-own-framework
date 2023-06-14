@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,9 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
+
   <component name="RunManager" selected="JUnit.TestRunner">
+
     <configuration name="Feature: NewCheckingAcct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" />
@@ -150,10 +153,12 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
         <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
+
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
       </list>
     </recent_temporary>

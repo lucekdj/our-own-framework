@@ -38,8 +38,10 @@ public class NewCheckingSteps {
     }
 
     @And("user selects {string} on the Select Account Ownership")
+
     public void userSelectsOnTheSelectAccountOwnership(String ownershipType) {
         newCheckingPage.selectAcctOwnership(ownershipType);
+
     }
 
     @Then("user enters {string}")

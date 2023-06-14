@@ -60,7 +60,9 @@ public class NewCheckingAccountPage extends BasePage{
     }
 
     public void userEntersAcctName(String acctName){
+
         accountName.sendKeys(acctName);
+
 
     }
     public void userEntersDepositAmount(String initDeposit){

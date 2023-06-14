@@ -54,13 +54,16 @@ public class HomePage extends BasePage {
         savingsBtn.click();
     }
  
+
     public void clickOnNewSavingsBtn(){
         newSavingsBtn.click();
 
 
 
+
         }
     }
+
 
 
 
