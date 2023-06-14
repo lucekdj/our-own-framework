@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
