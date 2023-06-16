@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class :waLoginSteps {
+public class LoginSteps {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
     @Given("user enters valid {string} and {string}")

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5db06bf6-46ae-4415-b123-23611c94aed2" name="Changes" comment="first sos">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TransferFund.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-
+      <change beforePath="$PROJECT_DIR$/html-report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Feature: Savings">
     <configuration name="Feature: NewCheckingAcct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" />
@@ -76,14 +78,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify user is able to log in with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Savings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Savings.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="our-own-framework" />
-      <option name="NAME_FILTER" value="^Verify user is able to log in with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to log in with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to log in with valid credentials" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Savings" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
-        <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
-        <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
+        <item itemvalue="Cucumber Java.Feature: Savings" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
+        <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
       </list>
     </recent_temporary>
   </component>
