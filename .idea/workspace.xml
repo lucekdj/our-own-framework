@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DataBaseUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/TransferFunds.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/html-report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-report/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
@@ -21,6 +22,10 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCheckingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/NewCheckingSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+=======
+
+
+>>>>>>> 2f0b64f025d1a2fc18c2631a53e1cfa31cc68aad
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,11 @@
       <recent name="C:\Users\lucek\OneDrive\Desktop\New folder (3)\OurOwnFramework\src\test\resources\drivers" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to transfer funds between accounts">
+=======
+  <component name="RunManager" selected="JUnit.TestRunner">
+>>>>>>> 2f0b64f025d1a2fc18c2631a53e1cfa31cc68aad
     <configuration name="Feature: NewCheckingAcct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewCheckingAcct.feature" />
@@ -165,11 +174,18 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to transfer funds between accounts" />
+=======
+>>>>>>> 2f0b64f025d1a2fc18c2631a53e1cfa31cc68aad
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: NewCheckingAcct" />
         <item itemvalue="Cucumber Java.Scenario: user opens new checking account" />
         <item itemvalue="Cucumber Java.Scenario: Verify user is able to log in with valid credentials" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to register for account" />
+>>>>>>> 2f0b64f025d1a2fc18c2631a53e1cfa31cc68aad
       </list>
     </recent_temporary>
   </component>
