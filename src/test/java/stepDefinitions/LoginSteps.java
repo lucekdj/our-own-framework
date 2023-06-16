@@ -20,9 +20,5 @@ public class LoginSteps {
 
     }
 
-    @Then("verify user is successfully logged into the account")
-    public void verifyUserIsSuccessfullyLoggedIntoTheAccount() {
-        homePage.verifyPage();
 
-    }
 }

@@ -36,6 +36,8 @@ public class HomePage extends BasePage {
     WebElement linkExternalAccountBtn;
     @FindBy(css = "#view-external-menu-item")
     WebElement viewExternalAccountBtn;
+    @FindBy(xpath = "//a[@id='transfer-menu-item']")
+    WebElement transferBtn;
 
 
     public void verifyPage() {
@@ -62,7 +64,13 @@ public class HomePage extends BasePage {
 
 
         }
+
+    public void clicksOnTransferBetweenAccounts() {
+        transferBtn.click();
+
+
     }
+}
 
 
 
