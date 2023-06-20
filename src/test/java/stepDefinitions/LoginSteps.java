@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class :waLoginSteps {
+public class LoginSteps {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
     @Given("user enters valid {string} and {string}")
@@ -14,9 +14,9 @@ public class :waLoginSteps {
         loginPage.enterValidLoginInfo(username, password );
     }
 
-        @When("user clicks on sign in button")
-        public void userClicksOnSignInButton() {
-            loginPage.clickSignInBtn();
+    @When("user clicks on sign in button")
+    public void userClicksOnSignInButton() {
+        loginPage.clickSignInBtn();
 
     }
 
