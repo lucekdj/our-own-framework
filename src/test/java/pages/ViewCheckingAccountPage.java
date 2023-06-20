@@ -17,7 +17,7 @@ public class ViewCheckingAccountPage extends BasePage{
     }
 
     public void userScrollsDownToTransactionHistoryTable() {
-        js.executeScript("arguments[0].scrollIntoView")
+        js.executeScript("arguments[0].scrollIntoView");
 
     }
 }
