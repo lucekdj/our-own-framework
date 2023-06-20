@@ -12,6 +12,7 @@ Feature: Transfer Funds Feature
       When user selects from Account "TransferFromAccount"
       Then user selects to Account "TransferToAccount"
       And user enters amount "TransferAmount"
+      And verify transfer amount is less than available balance
       And user clicks on submit button
 
       Then verify user is on View Accounts Page

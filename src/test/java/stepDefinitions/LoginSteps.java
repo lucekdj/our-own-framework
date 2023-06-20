@@ -14,9 +14,9 @@ public class LoginSteps {
         loginPage.enterValidLoginInfo(username, password );
     }
 
-        @When("user clicks on sign in button")
-        public void userClicksOnSignInButton() {
-            loginPage.clickSignInBtn();
+    @When("user clicks on sign in button")
+    public void userClicksOnSignInButton() {
+        loginPage.clickSignInBtn();
 
     }
 
